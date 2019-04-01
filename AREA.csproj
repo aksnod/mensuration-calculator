@@ -1,0 +1,312 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<Project ToolsVersion="4.0" DefaultTargets="Build" xmlns="http://schemas.microsoft.com/developer/msbuild/2003">
+  <Import Project="$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props" Condition="Exists('$(MSBuildExtensionsPath)\$(MSBuildToolsVersion)\Microsoft.Common.props')" />
+  <PropertyGroup>
+    <Configuration Condition=" '$(Configuration)' == '' ">Debug</Configuration>
+    <Platform Condition=" '$(Platform)' == '' ">AnyCPU</Platform>
+    <ProjectGuid>{639832C8-EE8F-4A29-A2D9-32BD7612F3D6}</ProjectGuid>
+    <OutputType>WinExe</OutputType>
+    <AppDesignerFolder>Properties</AppDesignerFolder>
+    <RootNamespace>AREA</RootNamespace>
+    <AssemblyName>AREA</AssemblyName>
+    <TargetFrameworkVersion>v4.5</TargetFrameworkVersion>
+    <FileAlignment>512</FileAlignment>
+    <PublishUrl>publish\</PublishUrl>
+    <Install>true</Install>
+    <InstallFrom>Disk</InstallFrom>
+    <UpdateEnabled>false</UpdateEnabled>
+    <UpdateMode>Foreground</UpdateMode>
+    <UpdateInterval>7</UpdateInterval>
+    <UpdateIntervalUnits>Days</UpdateIntervalUnits>
+    <UpdatePeriodically>false</UpdatePeriodically>
+    <UpdateRequired>false</UpdateRequired>
+    <MapFileExtensions>true</MapFileExtensions>
+    <ApplicationRevision>0</ApplicationRevision>
+    <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
+    <IsWebBootstrapper>false</IsWebBootstrapper>
+    <UseApplicationTrust>false</UseApplicationTrust>
+    <BootstrapperEnabled>true</BootstrapperEnabled>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Debug|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugSymbols>true</DebugSymbols>
+    <DebugType>full</DebugType>
+    <Optimize>false</Optimize>
+    <OutputPath>bin\Debug\</OutputPath>
+    <DefineConstants>DEBUG;TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <PropertyGroup Condition=" '$(Configuration)|$(Platform)' == 'Release|AnyCPU' ">
+    <PlatformTarget>AnyCPU</PlatformTarget>
+    <DebugType>pdbonly</DebugType>
+    <Optimize>true</Optimize>
+    <OutputPath>bin\Release\</OutputPath>
+    <DefineConstants>TRACE</DefineConstants>
+    <ErrorReport>prompt</ErrorReport>
+    <WarningLevel>4</WarningLevel>
+  </PropertyGroup>
+  <ItemGroup>
+    <Reference Include="System" />
+    <Reference Include="System.Core" />
+    <Reference Include="System.Messaging" />
+    <Reference Include="System.Windows.Forms.DataVisualization" />
+    <Reference Include="System.Xml.Linq" />
+    <Reference Include="System.Data.DataSetExtensions" />
+    <Reference Include="Microsoft.CSharp" />
+    <Reference Include="System.Data" />
+    <Reference Include="System.Deployment" />
+    <Reference Include="System.Drawing" />
+    <Reference Include="System.Windows.Forms" />
+    <Reference Include="System.Xml" />
+  </ItemGroup>
+  <ItemGroup>
+    <Compile Include="circle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="circle.Designer.cs">
+      <DependentUpon>circle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="cone.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="cone.Designer.cs">
+      <DependentUpon>cone.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CUBE.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CUBE.Designer.cs">
+      <DependentUpon>CUBE.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CubeTeminology.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CubeTeminology.Designer.cs">
+      <DependentUpon>CubeTeminology.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cuboid.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cuboid.Designer.cs">
+      <DependentUpon>Cuboid.cs</DependentUpon>
+    </Compile>
+    <Compile Include="CuboidTerminology.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="CuboidTerminology.Designer.cs">
+      <DependentUpon>CuboidTerminology.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Cylinder.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Cylinder.Designer.cs">
+      <DependentUpon>Cylinder.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Definations.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Definations.Designer.cs">
+      <DependentUpon>Definations.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Form1.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Form1.Designer.cs">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Isoceles.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Isoceles.Designer.cs">
+      <DependentUpon>Isoceles.cs</DependentUpon>
+    </Compile>
+    <Compile Include="IsocelesTriangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="IsocelesTriangle.Designer.cs">
+      <DependentUpon>IsocelesTriangle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Perimeter , Area.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Perimeter , Area.Designer.cs">
+      <DependentUpon>Perimeter , Area.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Program.cs" />
+    <Compile Include="Properties\AssemblyInfo.cs" />
+    <Compile Include="Properties\Resources.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DesignTime>True</DesignTime>
+      <DependentUpon>Resources.resx</DependentUpon>
+    </Compile>
+    <Compile Include="Quadrilateral.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Quadrilateral.Designer.cs">
+      <DependentUpon>Quadrilateral.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Rectangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Rectangle.Designer.cs">
+      <DependentUpon>Rectangle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Right-angled triangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Right-angled triangle.Designer.cs">
+      <DependentUpon>Right-angled triangle.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Sphere.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Sphere.Designer.cs">
+      <DependentUpon>Sphere.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tentero.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tentero.Designer.cs">
+      <DependentUpon>Tentero.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Tproperties.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Tproperties.Designer.cs">
+      <DependentUpon>Tproperties.cs</DependentUpon>
+    </Compile>
+    <Compile Include="Triangle.cs">
+      <SubType>Form</SubType>
+    </Compile>
+    <Compile Include="Triangle.Designer.cs">
+      <DependentUpon>Triangle.cs</DependentUpon>
+    </Compile>
+    <EmbeddedResource Include="circle.resx">
+      <DependentUpon>circle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="cone.resx">
+      <DependentUpon>cone.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CUBE.resx">
+      <DependentUpon>CUBE.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CubeTeminology.resx">
+      <DependentUpon>CubeTeminology.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cuboid.resx">
+      <DependentUpon>Cuboid.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="CuboidTerminology.resx">
+      <DependentUpon>CuboidTerminology.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Cylinder.resx">
+      <DependentUpon>Cylinder.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Definations.resx">
+      <DependentUpon>Definations.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Isoceles.resx">
+      <DependentUpon>Isoceles.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="IsocelesTriangle.resx">
+      <DependentUpon>IsocelesTriangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Perimeter , Area.resx">
+      <DependentUpon>Perimeter , Area.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Properties\Resources.resx">
+      <Generator>ResXFileCodeGenerator</Generator>
+      <SubType>Designer</SubType>
+      <LastGenOutput>Resources.Designer.cs</LastGenOutput>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Quadrilateral.resx">
+      <DependentUpon>Quadrilateral.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Rectangle.resx">
+      <DependentUpon>Rectangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Right-angled triangle.resx">
+      <DependentUpon>Right-angled triangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Sphere.resx">
+      <DependentUpon>Sphere.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tentero.resx">
+      <DependentUpon>Tentero.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Tproperties.resx">
+      <DependentUpon>Tproperties.cs</DependentUpon>
+    </EmbeddedResource>
+    <EmbeddedResource Include="Triangle.resx">
+      <DependentUpon>Triangle.cs</DependentUpon>
+    </EmbeddedResource>
+    <None Include="Properties\Settings.settings">
+      <Generator>SettingsSingleFileGenerator</Generator>
+      <LastGenOutput>Settings.Designer.cs</LastGenOutput>
+    </None>
+    <Compile Include="Properties\Settings.Designer.cs">
+      <AutoGen>True</AutoGen>
+      <DependentUpon>Settings.settings</DependentUpon>
+      <DesignTimeSharedInput>True</DesignTimeSharedInput>
+    </Compile>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="App.config" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\2 - Copy.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\8.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\10.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defi.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\defi1.png" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\images %287%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <BootstrapperPackage Include=".NETFramework,Version=v4.5">
+      <Visible>False</Visible>
+      <ProductName>Microsoft .NET Framework 4.5 %28x86 and x64%29</ProductName>
+      <Install>true</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Client.3.5">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1 Client Profile</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+    <BootstrapperPackage Include="Microsoft.Net.Framework.3.5.SP1">
+      <Visible>False</Visible>
+      <ProductName>.NET Framework 3.5 SP1</ProductName>
+      <Install>false</Install>
+    </BootstrapperPackage>
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\parts-of-a-cube.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\%289%29.jpg" />
+  </ItemGroup>
+  <ItemGroup>
+    <None Include="Resources\Untitled.png" />
+  </ItemGroup>
+  <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
+  <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
+       Other similar extension points exist, see Microsoft.Common.targets.
+  <Target Name="BeforeBuild">
+  </Target>
+  <Target Name="AfterBuild">
+  </Target>
+  -->
+</Project>

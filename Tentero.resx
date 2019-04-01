@@ -1,0 +1,227 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<root>
+  <!-- 
+    Microsoft ResX Schema 
+    
+    Version 2.0
+    
+    The primary goals of this format is to allow a simple XML format 
+    that is mostly human readable. The generation and parsing of the 
+    various data types are done through the TypeConverter classes 
+    associated with the data types.
+    
+    Example:
+    
+    ... ado.net/XML headers & schema ...
+    <resheader name="resmimetype">text/microsoft-resx</resheader>
+    <resheader name="version">2.0</resheader>
+    <resheader name="reader">System.Resources.ResXResourceReader, System.Windows.Forms, ...</resheader>
+    <resheader name="writer">System.Resources.ResXResourceWriter, System.Windows.Forms, ...</resheader>
+    <data name="Name1"><value>this is my long string</value><comment>this is a comment</comment></data>
+    <data name="Color1" type="System.Drawing.Color, System.Drawing">Blue</data>
+    <data name="Bitmap1" mimetype="application/x-microsoft.net.object.binary.base64">
+        <value>[base64 mime encoded serialized .NET Framework object]</value>
+    </data>
+    <data name="Icon1" type="System.Drawing.Icon, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+        <value>[base64 mime encoded string representing a byte array form of the .NET Framework object]</value>
+        <comment>This is a comment</comment>
+    </data>
+                
+    There are any number of "resheader" rows that contain simple 
+    name/value pairs.
+    
+    Each data row contains a name, and value. The row also contains a 
+    type or mimetype. Type corresponds to a .NET class that support 
+    text/value conversion through the TypeConverter architecture. 
+    Classes that don't support this are serialized and stored with the 
+    mimetype set.
+    
+    The mimetype is used for serialized objects, and tells the 
+    ResXResourceReader how to depersist the object. This is currently not 
+    extensible. For a given mimetype the value must be set accordingly:
+    
+    Note - application/x-microsoft.net.object.binary.base64 is the format 
+    that the ResXResourceWriter will generate, however the reader can 
+    read any of the formats listed below.
+    
+    mimetype: application/x-microsoft.net.object.binary.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Binary.BinaryFormatter
+            : and then encoded with base64 encoding.
+    
+    mimetype: application/x-microsoft.net.object.soap.base64
+    value   : The object must be serialized with 
+            : System.Runtime.Serialization.Formatters.Soap.SoapFormatter
+            : and then encoded with base64 encoding.
+
+    mimetype: application/x-microsoft.net.object.bytearray.base64
+    value   : The object must be serialized into a byte array 
+            : using a System.ComponentModel.TypeConverter
+            : and then encoded with base64 encoding.
+    -->
+  <xsd:schema id="root" xmlns="" xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:msdata="urn:schemas-microsoft-com:xml-msdata">
+    <xsd:import namespace="http://www.w3.org/XML/1998/namespace" />
+    <xsd:element name="root" msdata:IsDataSet="true">
+      <xsd:complexType>
+        <xsd:choice maxOccurs="unbounded">
+          <xsd:element name="metadata">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" />
+              </xsd:sequence>
+              <xsd:attribute name="name" use="required" type="xsd:string" />
+              <xsd:attribute name="type" type="xsd:string" />
+              <xsd:attribute name="mimetype" type="xsd:string" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="assembly">
+            <xsd:complexType>
+              <xsd:attribute name="alias" type="xsd:string" />
+              <xsd:attribute name="name" type="xsd:string" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="data">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+                <xsd:element name="comment" type="xsd:string" minOccurs="0" msdata:Ordinal="2" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" msdata:Ordinal="1" />
+              <xsd:attribute name="type" type="xsd:string" msdata:Ordinal="3" />
+              <xsd:attribute name="mimetype" type="xsd:string" msdata:Ordinal="4" />
+              <xsd:attribute ref="xml:space" />
+            </xsd:complexType>
+          </xsd:element>
+          <xsd:element name="resheader">
+            <xsd:complexType>
+              <xsd:sequence>
+                <xsd:element name="value" type="xsd:string" minOccurs="0" msdata:Ordinal="1" />
+              </xsd:sequence>
+              <xsd:attribute name="name" type="xsd:string" use="required" />
+            </xsd:complexType>
+          </xsd:element>
+        </xsd:choice>
+      </xsd:complexType>
+    </xsd:element>
+  </xsd:schema>
+  <resheader name="resmimetype">
+    <value>text/microsoft-resx</value>
+  </resheader>
+  <resheader name="version">
+    <value>2.0</value>
+  </resheader>
+  <resheader name="reader">
+    <value>System.Resources.ResXResourceReader, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <resheader name="writer">
+    <value>System.Resources.ResXResourceWriter, System.Windows.Forms, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b77a5c561934e089</value>
+  </resheader>
+  <assembly alias="System.Drawing" name="System.Drawing, Version=4.0.0.0, Culture=neutral, PublicKeyToken=b03f5f7f11d50a3a" />
+  <data name="button1.BackgroundImage" type="System.Drawing.Bitmap, System.Drawing" mimetype="application/x-microsoft.net.object.bytearray.base64">
+    <value>
+        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
+</value>
+  </data>
+  <data name="button1.Text" xml:space="preserve">
+    <value>Triangle-:A tirangle is a polygon with three edges and three vertices.
+Side-:       side of a triangle is a line segment that connects two vertices.
+Vertex-:    vertex is the point of intersection orf two sides of triangle.
+Altitude-: altitude is a line from vertex perpendicular to the opposite side.The altitudes of 
+                 the triangle will intersect at a common point called ORTHOCENTER.
+Median-:Median of the triangle is a line from vertex to the midpoint of the opposite side.
+                 A triangle has three medains, and these three medians will intersect at  CENTROD.
+
+
+</value>
+  </data>
+</root>
