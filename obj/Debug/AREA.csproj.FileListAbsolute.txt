@@ -1,0 +1,69 @@
+E:\download\AREA\AREA\bin\Debug\AREA.exe.config
+E:\download\AREA\AREA\bin\Debug\AREA.exe
+E:\download\AREA\AREA\bin\Debug\AREA.pdb
+E:\download\AREA\AREA\obj\Debug\AREA.csprojResolveAssemblyReference.cache
+E:\download\AREA\AREA\obj\Debug\AREA.Form1.resources
+E:\download\AREA\AREA\obj\Debug\AREA.Properties.Resources.resources
+E:\download\AREA\AREA\obj\Debug\AREA.csproj.GenerateResource.Cache
+E:\download\AREA\AREA\obj\Debug\AREA.exe
+E:\download\AREA\AREA\obj\Debug\AREA.pdb
+E:\download\Area\AREA\obj\Debug\AREA.Triangle.resources
+E:\download\Area\AREA\obj\Debug\AREA.Tentero.resources
+E:\download\Area\AREA\obj\Debug\AREA.Tproperties.resources
+E:\download\Area\AREA\obj\Debug\AREA.Right_angled_triangle.resources
+E:\download\Area\AREA\obj\Debug\AREA.Perimeter___Area.resources
+E:\download\Area\AREA\obj\Debug\AREA.Isoceles.resources
+E:\download\Area\AREA\obj\Debug\AREA.circle.resources
+E:\java program\c#\AREA\AREA\bin\Debug\AREA.exe.config
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.exe
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.pdb
+E:\java program\c#\AREA\AREA\bin\Debug\AREA.exe
+E:\java program\c#\AREA\AREA\bin\Debug\AREA.pdb
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.csprojResolveAssemblyReference.cache
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.circle.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.Form1.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.Isoceles.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.Perimeter___Area.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.Properties.Resources.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.Right_angled_triangle.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.Tentero.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.Tproperties.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.Triangle.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.csproj.GenerateResource.Cache
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.Definations.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.Quadrilateral.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.Cuboid.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.Cylinder.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.Sphere.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.cone.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.IsocelesTriangle.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.CUBE.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.CubeTeminology.resources
+E:\java program\c#\AREA\AREA\obj\Debug\AREA.CuboidTerminology.resources
+F:\program learn\c#\AREA\AREA\bin\Debug\AREA.exe.config
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.pdb
+F:\program learn\c#\AREA\AREA\bin\Debug\AREA.exe
+F:\program learn\c#\AREA\AREA\bin\Debug\AREA.pdb
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.csprojResolveAssemblyReference.cache
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.circle.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.cone.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.CUBE.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.CubeTeminology.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Cuboid.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.CuboidTerminology.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Cylinder.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Definations.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Form1.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Isoceles.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.IsocelesTriangle.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Perimeter___Area.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Properties.Resources.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Quadrilateral.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Right_angled_triangle.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Sphere.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Tentero.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Tproperties.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Triangle.resources
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.csproj.GenerateResource.Cache
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.exe
+F:\program learn\c#\AREA\AREA\obj\Debug\AREA.Rectangle.resources
